@@ -9,7 +9,7 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 
-public class ExerciseOne {
+public class Exercise1 {
 
     @Before
     public void openPage() {

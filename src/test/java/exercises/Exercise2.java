@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import pages.DynamicControlsPage;
 
-public class ExerciseTwo {
+public class Exercise2 {
 
     private DynamicControlsPage dynamicControlsPage = new DynamicControlsPage();
 
