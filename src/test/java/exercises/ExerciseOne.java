@@ -1,13 +1,11 @@
 package exercises;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Condition.*;
 
 import com.codeborne.selenide.SelenideElement;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
