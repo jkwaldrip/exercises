@@ -37,7 +37,7 @@ public class Exercise3 {
         assertThat(address.getState())
                 .isNotBlank();
         assertThat(address.getZipCode())
-                .isGreaterThan(0);
+                .isNotBlank();
         assertThat(address.getTimeZone())
                 .isNotBlank();
     }

@@ -7,7 +7,7 @@ public class PrimaryAddress {
     private String street;
     private String city;
     private String state;
-    private Integer zipCode;
+    private String zipCode;
     private String timeZone;
 
     public String getStreet() {
@@ -49,15 +49,15 @@ public class PrimaryAddress {
         return this;
     }
 
-    public Integer getZipCode() {
+    public String getZipCode() {
         return zipCode;
     }
 
-    public void setZipCode(Integer zipCode) {
+    public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
 
-    public PrimaryAddress withZipCode(Integer zipCode) {
+    public PrimaryAddress withZipCode(String zipCode) {
         setZipCode(zipCode);
         return this;
     }
